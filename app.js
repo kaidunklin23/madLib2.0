@@ -14,7 +14,7 @@ function createParagraph() {
 
     console.log(    color, noun1, taste, adj, nounPlural, holiday, noun2, number, noun3    );
 
-    var paragraph = ' <p> Thanks for placing your chocolate order with the ' + color  + noun1 + ' Chocolate Company. ' + ' Unfortunately, your ' + taste + ' flavored chocolates are unavailable right now because ' + adj + nounPlural + ' accidentally fell in our chocolate vat. ' + ' We’re sorry for any inconvenience this caused. ' + '  Since you were ordering these for a party to celebrate ' + holiday + ' we would like to offer you ' + noun2 + ' -shaped truffles at a discount of ' + number + ' dollars instead ' + ' Sincerely, John ' + noun3 + ' Spooner ' + '</p>';
+    var paragraph = ' <p> Thanks for placing your chocolate order with the ' + color  + noun1 + ' Chocolate Company. ' + ' Unfortunately, your ' + taste + ' flavored chocolates are unavailable right now because ' + adj + nounPlural + ' accidentally fell in our chocolate vat. ' + ' We’re sorry for any inconvenience this caused. ' + '  Since you were ordering these for a party to celebrate ' + holiday + ' we would like to offer you ' + noun2 + ' -shaped truffles at a discount of ' + number + ' dollars instead. ' + ' Sincerely, John ' + noun3 + ' Spooner ' + '</p>';
    
     console.log(paragraph);
 

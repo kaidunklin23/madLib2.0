@@ -1,0 +1,31 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+body{
+    background-image: linear-gradient(darkblue,cyan );
+    background-repeat: no-repeat;
+    font-family: 'Handlee', cursive;
+    margin: auto;
+    height: 1000px;
+}
+h1{
+    color: white;
+}
+form{
+    color: cyan;
+}
+input{
+    width: 200px;
+    height: 50px;
+    border: thick;
+    border-style: groove;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#par{
+    font-size: 25px;
+
+}

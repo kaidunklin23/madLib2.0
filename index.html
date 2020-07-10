@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
     <title>Form and a Paragraph</title>
 </head>
 <body>
+    <h1 class="text-center"> Chocolate Factory</h1>
+
+
     <form onSubmit="return false" action="">
-        <input type="text" id='color'>
-        <input type="text" id='noun1'>
-        <input type="text" id="taste">
-        <input type="text" id="adj1">
-        <input type="text" id='nounPlural'>
-        <input type="text" id='holiday'>
-        <input type="text" id='noun2'>
-        <input type="text" id='number'>
-        <input type="text" id='noun3'>
+        Color: <input type="text" id='color'><br>
+        Noun: <input type="text" id='noun1'><br>
+        Something you can taste: <input type="text" id="taste"><br>
+        Adjective: <input type="text" id="adj1"><br>
+        Plural Noun: <input type="text" id='nounPlural'><br>
+        Holiday: <input type="text" id='holiday'><br>
+        Noun: <input type="text" id='noun2'><br>
+        Number: <input type="text" id='number'><br>
+        Noun: <input type="text" id='noun3'><br>
         <button type='button' onclick='createParagraph()'>Submit</button>
     </form>
 
